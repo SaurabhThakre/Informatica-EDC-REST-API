@@ -7,10 +7,10 @@ Python scripts to fetch or update assets details using REST API in Informatica E
 3. Following Python libraries are required that are used in Script:<br>
 pandas, requests, html2text, openpyxl
 4. If not present install the same using below commands:
-- pip3 install pandas --user
-- pip3 install requests --user
-- pip3 install html2text --user
-- pip3 install openpyxl --user
+  - pip3 install pandas --user
+  - pip3 install requests --user
+  - pip3 install html2text --user
+  - pip3 install openpyxl --user
 5. Authorization key for user account to be used in REST API call headers in Script. Refer encodeUser.py from below Github page to generate generate Authorization key:<br>
 https://github.com/darren-wrigley/REST-API-Samples/tree/master/python
 
