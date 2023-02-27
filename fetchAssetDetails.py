@@ -14,7 +14,8 @@ requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.
 # This function is for REST API call along with Authorization details and return JSON response
 def getJSON(q_val):
     search_url= '<EDC_Catalog_URL>/access/2/catalog/data/objects'
-    username='<AD_Group>/<Service_Account>'
+    username='<Username>'
+    # username='<AD_Group>/<Service_Account>'
     password='<Password>'
 
     payload={
