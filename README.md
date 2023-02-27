@@ -26,8 +26,10 @@ Generate Authorization key using encodeUser.py
 - Data Owner
 - Data Steward and 
 - Custom Attributes
+
 Script takes "tables.xlsx" file as input and generate "AssetsExport.csv" as output.<br>
 Make sure above input file is present in same path as Script file.<br> 
 Input file will contain the list of tables present in EDC for which details need to be fetched.<br>
 Find below screenshot for input file content format:
+<img src="./InputExcelImage.PNG">
 
