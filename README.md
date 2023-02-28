@@ -15,11 +15,12 @@ pandas, requests, html2text, openpyxl
 https://github.com/darren-wrigley/REST-API-Samples/tree/master/python
 
 ## fetchAssetDetails.py
-1. To fetch Tables details along with Column present under it using Excel file as input containing the list of Table names and output CSV is generated containing following details: <br> 
+1. To fetch details of Tables along with Columns present under it. It is useful when your Hundreds of tables are spread accross Resources and want to fetch details for the same.
+2. It uses Excel file as input containing the list of Table names and output CSV is generated containing following details: <br> 
 Asset Id, Asset Name, Asset Type, Schema name, Business Description, Data Owner, Data Steward and Custom Attributes
-2. Script takes "tables.xlsx" file as input and generate "AssetsExport.csv" as output.
-3. Make sure above input file is present in same path as Script file.
-4. Input file will contain the list of tables present in EDC for which details need to be fetched.
-5. Find below screenshot for input file content format:<br>
+3. Script takes "tables.xlsx" file as input and generate "AssetsExport.csv" as output.
+4. Make sure above input file is present in same path as Script file.
+5. Input file will contain the list of tables present in EDC for which details need to be fetched.
+6. Find below screenshot for input file content format:<br>
 <img src="./InputExcelImage.PNG">
 
